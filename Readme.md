@@ -29,7 +29,7 @@ nodejs crypto example
   - test/des.js
   - test/aes.js
   - test/padding.js
- - you can test using [mocha](http://visionmedia.github.io/mocha/)
+ - you can test using [mocha](http://mochajs.org/)
 
 ```
 _mocha --ui exports ./test
@@ -141,5 +141,5 @@ assert(result.toString('hex') ==  cipher.toString('hex'));
 ```
 
 ##history
-- added test framework : [mocha](http://visionmedia.github.io/mocha/)
+- added test framework : [mocha](http://mochajs.org/)
 
